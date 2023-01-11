@@ -10,6 +10,9 @@ body{
     background-color: #080808;
 }
 
+#header{
+    height: 100vh;
+}
 .container{
     padding: 10px 10%;
     
@@ -66,4 +69,14 @@ nav ul li a:hover::after{
 
 .header-text h1 span{
     color: #ff004f;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#about{
+    padding: 80px 0px;
 }
