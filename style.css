@@ -24,7 +24,7 @@ nav{
     flex-wrap: wrap;
 }
 
-img{
+.container nav img{
     width: 140px;
 }
 
@@ -79,4 +79,51 @@ nav ul li a:hover::after{
 
 #about{
     padding: 80px 0px;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    height: 3px;
+    background: #ff004f;
+    position:absolute;
+    left: 0;
+    width: 0;
+    bottom: -8px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+.tab-links:hover::after{
+    width: 100%;
 }
