@@ -140,3 +140,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents{display: none;}
+
+.active-tab{
+    display: block;
+}
