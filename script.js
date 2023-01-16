@@ -8,7 +8,7 @@ var education = document.querySelector(".education")
 let yourChoice
 
 
-//about me options
+//about options
 skills.addEventListener("click", op1);
 experience.addEventListener("click", op2);
 education.addEventListener("click", op3);
