@@ -222,15 +222,17 @@ a{
 }
 
 .work-list-title{
-    padding-top: 10px;
-    font-size: 28px;
+    
+    padding-bottom: 30px;
+    font-size: 36px;
+    font: weight 900px;
     display: block;
     text-align: center;
     transition: 0.5s;
 }
 
 .work-list-title:hover{
-    color: #ff004f;
+    color: #ff004f;  
 }
 
 .layer{
@@ -243,7 +245,16 @@ a{
     bottom: 0;
     overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:center;
     flex-direction: column;
+    padding: 0 40px;
 }
+.para{
+    padding: 20px 0;
+    font-size: 24px;
+    font: weight 600px;
+    display: block;
+    text-align: center;
+}
+
