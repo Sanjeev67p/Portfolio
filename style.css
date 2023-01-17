@@ -10,7 +10,7 @@ body{
     background-color: #080808;
 }
 
-/* ---------header-------- */
+/* ---------main section-------- */
 
 #header{
     height: 100vh;
@@ -82,7 +82,7 @@ nav ul li a:hover::after{
 }
 
 #about{
-    padding: 80px 0px;
+    padding: 50px 0px;
     height: 100vh;
 }
 
@@ -153,7 +153,7 @@ nav ul li a:hover::after{
 
 
 #services{
-    padding: 30px 0px;
+    padding: 50px 0px;
     height: 100vh;
 }
 
@@ -178,6 +178,11 @@ i{
     transition: 0.5s;
 }
 
+.services-list div:hover{
+    background: #ff004f;
+    transform: translate(5px, -10px);
+   }
+
 a{
     text-decoration: none;
     color: #fff;
@@ -185,13 +190,45 @@ a{
     display: inline-block;
 }
 
-.services-list div:hover{
-    background: #ff004f;
-    transform: translate(5px, -10px);
-   }
-
 /* ---------portfolio-------- */
 
 #portfolio{
     height: 100vh;
+    padding: 50px 0;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:center;
+    justify-content: center;
+    grid-gap: 80px;
+    margin-top: 50px;
+    
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.work img{
+    border: 3px solid #fff;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.work-list-title{
+    padding-top: 10px;
+    font-size: 28px;
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.work-list-title:hover{
+    color: #ff004f;
 }
