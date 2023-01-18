@@ -9,7 +9,10 @@ body{
     color: #fff;
     background-color: #080808;
 }
-
+html{
+    scroll-behavior:smooth;
+    
+}
 /* ---------main section-------- */
 
 #header{
