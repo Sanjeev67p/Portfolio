@@ -112,6 +112,7 @@ nav ul li a:hover::after{
     display: flex;
     margin: 20px 0 40px;
 }
+
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
@@ -119,7 +120,6 @@ nav ul li a:hover::after{
     cursor: pointer;
     position: relative;
 }
-
 .tab-links::after{
     content: '';
     height: 3px;
@@ -130,7 +130,6 @@ nav ul li a:hover::after{
     bottom: -8px;
     text-decoration: none;
     transition: 0.3s;
-
 }
 .tab-links:hover::after{
     width: 100%;
