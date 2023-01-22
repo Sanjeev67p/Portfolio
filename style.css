@@ -10,21 +10,43 @@ body{
     background-color: #080808;
 }
 html{
-    scroll-behavior:smooth;
-    
+    scroll-behavior:smooth;   
 }
-/* ---------main section-------- */
+/* ---------header-------- */
 
 #header{
     height: 100vh;
 }
+
 .container{
-    padding: 10px 10%;
-    
+    padding: 10px 10%;    
 }
 
-.vl {
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    
+    height: 140px;
+}
 
+.btn{
+    margin-top: 50px;
+    margin-right: 0 ;
+    width: fit-content;
+    text-align: center;
+    padding: 14px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #ff004f;
+    transition: 0.5s ;
+}
+.btn:hover{
+    background-color: #ff004f;
+}
+.vl {
     margin-left: 6px;
     border-left: 6px solid #ababab;
     height: 500px;
@@ -63,10 +85,6 @@ html{
     flex-wrap: wrap;
 }
 
-.logo{
-    width: 140px;
-}
-
 .rightnav ul li{
     transform: rotateZ(90deg);
     padding: 50px;
@@ -97,21 +115,43 @@ html{
     width: 100%;
 }
 
-.vl-rightnav{
-
+/* .vl-rightnav{
+    
     margin-left: 50px;
     border-left: 6px solid #ababab;
     height: 500px;
-  }
+} */
+
+/*-- ---------- main section ---------- -- */
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    margin-top: 10%;
+}
+
+.main-pic{
+    flex-basis: 30%;
+}
+
+.main-pic img{
+    border-radius: 5%;
+    width: 400px;
+}
 
 .header-text{
-    margin-top: 20%;
-    font-size: 30px;
+    flex-basis: 60%;
+    font-size: 25px;
 }
 
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+}
+.header-text p{
+    text-align: justify;
+    margin-top: 50px;
 }
 
 .header-text h1 span{
@@ -120,7 +160,7 @@ html{
 
 /* ---------about-------- */
 
-.row{
+/* .row{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -135,8 +175,8 @@ html{
     flex-basis: 35%;
 }
 
-.about-col-1 img{
-    width: 100%;
+.main-pic{
+    width: 60%;
     border-radius: 15px;
 }
 
@@ -191,7 +231,7 @@ html{
 
 .active-tab{
     display: block;
-}
+} */
 
 /* ---------services-------- */
 
@@ -320,25 +360,14 @@ a{
     display: block;
     margin-top: 10px;
 }
-.btn{
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    text-align: center;
-    padding: 14px 50px;
-    border-radius: 10px;
-    text-decoration: none;
-    border: 1px solid #ff004f;
-    transition: 0.5s ;
-}
-.btn:hover{
-    background-color: #ff004f;
-}
+
 
 /*-- ---------- contact ---------- --*/
-
+.row{
+    display: flex;
+}
 .contact-left{
-    flex-basis: 35%;
+    flex-basis: 30%;
 }
 .contact-right{
     flex-basis: 60%;
@@ -354,10 +383,10 @@ a{
 }
 
 
-.btn2{
+/* .btn2{
     margin-left: 0px;
     background-color: #ff004f;
-}
+} */
 
 .contact-right form{
     width: 100%;

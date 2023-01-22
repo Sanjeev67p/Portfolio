@@ -13,6 +13,7 @@ skills.addEventListener("click", op1);
 experience.addEventListener("click", op2);
 education.addEventListener("click", op3);
 
+
 function op1() {
     _education.classList.remove("active-tab");
     _experience.classList.remove("active-tab");
