@@ -22,31 +22,66 @@ html{
     padding: 10px 10%;
     
 }
-nav{
+
+.vl {
+
+    margin-left: 6px;
+    border-left: 6px solid #ababab;
+    height: 500px;
+  }
+.icons{
+    font-size: 24px;
+}
+
+.social-icons{
+    position: fixed;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    margin: 50vh 90vw 0vh 2vw;
+}
+
+.social-icons a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #ababab;
+    font-size: 25px;
+    display: inline-block;
+    transition: 0.2s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.rightnav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: 25vh 2vw 30vh 90vw;
+    z-index: 0;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.container nav img{
+.logo{
     width: 140px;
 }
 
-nav ul li{
-    display: inline-block;
+.rightnav ul li{
+    transform: rotateZ(90deg);
+    padding: 50px;
     list-style: none;
     margin: 10px 20px;
 }
 
-nav ul li a{
-    color: #fff;
+.rightnav ul li a{
+    color: #ababab;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 32px;
     position: relative;
 }
 
-nav ul li a::after{
+.rightnav ul li a::after{
     content: '';
     height: 3px;
     background: #ff004f;
@@ -56,11 +91,18 @@ nav ul li a::after{
     bottom: -6px;
     text-decoration: none;
     transition: 0.3s;
-
 }
-nav ul li a:hover::after{
+
+.rightnav ul li a:hover::after{
     width: 100%;
 }
+
+.vl-rightnav{
+
+    margin-left: 50px;
+    border-left: 6px solid #ababab;
+    height: 500px;
+  }
 
 .header-text{
     margin-top: 20%;
@@ -310,22 +352,7 @@ a{
     margin-right: 15px;
     font-size: 25px;
 }
-.social-icons{
-    margin-top: 30px;
-}
-.social-icons a{
-    text-decoration: none;
-    margin-right: 15px;
-    color: #ababab;
-    font-size: 25px;
-    display: inline-block;
-    transition: 0.2s;
-}
 
-.social-icons a:hover{
-    color: #ff004f;
-    transform: translateY(-5px);
-}
 
 .btn2{
     margin-left: 0px;
@@ -361,6 +388,7 @@ form .btn2{
 }
 
 .copyright{
+    z-index: 1;
     background: #262626;
     width:100%;
     text-align: center;
