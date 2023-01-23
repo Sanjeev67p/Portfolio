@@ -391,14 +391,17 @@ a{
 
 /*-- ---------- contact ---------- --*/
 #contact{
-    padding: 50px 0 0 0;
+    padding: 18vh 0;
     height: 100vh;
 }
-.sub-title{
+.contact-title{
     width: 100%;
     margin-top: 5vh;
     text-align: center;
     font-size: 60px;
+}
+.contact-title span{
+    color: #ff004f;
 }
 
 .contact-info{
