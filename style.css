@@ -47,6 +47,7 @@ html{
 }
 .btn:hover{
     background-color: #ff004f;
+    color:#fff
 }
 .vl {
     margin-left: 6px;
@@ -61,7 +62,7 @@ html{
     position: fixed;
     display: flex;
     flex-direction: column;
-    margin: 50vh 90vw 0vh 2vw;
+    margin: 50vh 90vw 0vh 3vw;
 }
 
 .social-icons a{
@@ -275,10 +276,10 @@ h2{
     font-size: 30px;
     padding-bottom: 10px;
 }
-i{
+/* i{  
     margin-bottom: 30px;
     font-size: 40px;
-}
+} */
 .services-list div{
     background: #262626;
     padding: 40px;
@@ -408,7 +409,7 @@ a{
     text-align: center;
     margin:5vh 10vw 0 10vw;
     padding-top: 5vh;
-    background:#262626;
+    /* background:#262626; */
     border-radius: 50px;
 }
 .contact-info p{
@@ -417,9 +418,9 @@ a{
     font-size: 20px;
 }
 .mail-link{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .get-touch{
     display: flex;  
@@ -427,37 +428,41 @@ a{
     align-items: center;
 }
 .btn2{
-    margin: 50px 0 10vh 0;
+    margin: 50px 0 50px 0;
 }
 
-/* .social{
+.social{
     display: flex;
     align-items: center;
     position: relative;
-    margin-top: 20px;
-    justify-content:flex-start;
+    justify-content:center;
 }
 .arrow{
     position: absolute;
     scale: 0.5;
-    margin-right: 20px;
-    flex-basis: 10%;
+    rotate: -10deg;
+    margin-right: 28vw;
+    margin-top: 5vh;
 }
 .social p{
     margin-top: 20px;
-    margin-left: 80px;
-    font-size: 30px;
-    flex-basis: 80%;
-} */
+    font-size: 20px;
+}
 
-.contact-info p i{
+/* .contact-info p i{
     color: #ff004f;
     margin-right: 15px;
     font-size: 40px;
-}
+} */
 .fa-paper-plane{
+    margin-bottom: 0;
+    font-size: 20px;
     color: #ff004f;
     margin-right: 10px;
+}
+.fa-paper-plane:hover{
+    color: #fff;
+
 }
 /* .form-name{
     display:flex;
