@@ -51,6 +51,7 @@ html{
 }
 .vl {
     margin-left: 6px;
+    margin-top: 15px;
     border-left: 6px solid #ababab;
     height: 500px;
   }
@@ -97,22 +98,11 @@ html{
 .rightnav ul li a{
     color: #ababab;
     text-decoration: none;
+    width:max-content;
     font-size: 20px;
     position: relative;
 }
 
-/* .rightnav ul li a::after{
-    content: '';
-    height: 3px;
-    background: #ff004f;
-    position:absolute;
-    left: 0;
-    width: 0;
-    bottom: -6px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-*/
 .rightnav ul li:hover{
     transform: scale(1.5) rotateZ(90deg); 
 } 
@@ -261,7 +251,7 @@ html{
 
 /* ---------services-------- */
 
-#services{
+/* #services{
     padding: 50px 0px;
     height: 100vh;
 }
@@ -276,10 +266,6 @@ h2{
     font-size: 30px;
     padding-bottom: 10px;
 }
-/* i{  
-    margin-bottom: 30px;
-    font-size: 40px;
-} */
 .services-list div{
     background: #262626;
     padding: 40px;
@@ -290,69 +276,96 @@ h2{
 .services-list div:hover{
     background: #ff004f;
     transform: translate(5px, -10px);
-   }
+} */
 
-a{
-    text-decoration: none;
-    color: #fff;
-    margin-top: 20px;
-    display: inline-block;
-}
 
 /* ---------portfolio-------- */
 
+i{  
+    margin-bottom: 30px;
+    font-size: 20px;
+}
 #portfolio{
     height: 100vh;
     width: 100%;
     overflow: hidden;
     padding: 30px 0;
 }
-
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+}
+.sub-title{
+    color: #ababab;
+    text-align: center;
+    margin-bottom: 5vh;
+}
 .work-list{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 40px;
+    margin: 0 10% 0 10%;
     align-items: center;
 }
 
-.work{
-    border-radius: 10px;
+.work-odd{
     position: relative;
     overflow: hidden;
-    
+    display: flex;
+    flex-direction: row;    
 }
 
-.work img{
-    width: 100%;
-    border-radius: 10px;
+.work-even{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.work-odd img{
+    display: inline-block;
+    opacity: 50%;
+    background-color: #ff004f;
+    z-index: 0;
+    width: 30%;
+    position: relative;
     display: block;
     transition: 0.5s;
 }
 
-.work img:hover{
-    transform: scale(1.1);
+.work-odd img:hover{
+    opacity: 100%;
+}
+
+.work-even img{
+    display: inline-block;
+    opacity: 50%;
+    z-index: 0;
+    width: 30%;
+    position: relative;
+    display: block;
+    transition: 0.5s;
+}
+
+.work-even img:hover{
+    opacity: 100%;
 }
 
 .layer{
-    width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    width: 505;
+    background: #262626;
+    position: relative;
+    z-index: 1;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    align-items:center;
     justify-content:center;
-    text-align: center;
+    text-align: end;
     padding: 0 40px;
     font-size: 14px;
     transition: 0.5s;
-}
-.work:hover .layer{
-    height: 100%;
 }
 
 .work-list-title{
@@ -363,32 +376,23 @@ a{
 } 
 .para{
     font-size: 24px;
-    padding-bottom: 20px;
     font: weight 600px;
 }
-.open-link-work{
+
+.open-link-work{  
     color: #ff004f; 
-    background: #fff;
     text-decoration: none;
-    line-height: 60px;
     height: 60px;
     width: 60px;
-    padding: 0;
-    border-radius: 50%;
     transition: 0.5s;
     font-size: 18px;
     text-align: center;
-}
-.open-link:hover{
-    color: white; 
-    background: #ff004f; 
 }
 
 .open-link-work i{
     display: block;
     margin-top: 10px;
 }
-
 
 /*-- ---------- contact ---------- --*/
 #contact{
@@ -445,8 +449,9 @@ a{
     margin-top: 5vh;
 }
 .social p{
+    font-family: 'Comic Neue', cursive;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 22 px;
 }
 
 /* .contact-info p i{
