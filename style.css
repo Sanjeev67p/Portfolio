@@ -513,9 +513,9 @@ a{
 .arrow{
     position: absolute;
     scale: 0.5;
-    rotate: -10deg;
-    margin-right: 28vw;
-    margin-top: 5vh;
+    /* rotate: -10deg; */
+    margin-right: 500px;
+    margin-top: 0vh;
 }
 .social p{
     font-family: 'Comic Neue', cursive;
