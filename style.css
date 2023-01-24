@@ -420,6 +420,22 @@ a{
     /* box-shadow: 0 10px 30px -15px #ff004f; */
 }
 
+.tech-odd{
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+}
+.tech-even{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+.tech-odd span{
+    padding: 20px 5px 0 5px;
+}
+.tech-even span{
+    padding: 20px 5px 0 5px;
+}
 .open-link-work{  
     color: #ff004f; 
     text-decoration: none;
