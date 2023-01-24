@@ -286,7 +286,7 @@ i{
     font-size: 20px;
 }
 #portfolio{
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     overflow: hidden;
     padding: 30px 0;
@@ -298,7 +298,7 @@ a{
     display: inline-block;
 }
 .sub-title{
-    color: #ababab;
+    color: #fff;
     text-align: center;
     margin-bottom: 5vh;
 }
@@ -311,27 +311,30 @@ a{
 }
 
 .work-odd{
-    position: relative;
+
+    height: 40vh;
     overflow: hidden;
     display: flex;
     flex-direction: row;    
 }
 
 .work-even{
-    position: relative;
+    height: 40vh;
     overflow: hidden;
     display: flex;
     flex-direction: row-reverse;
 }
 
 .work-odd img{
-    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+    left: 40vw;
+    right: 0vw;
     opacity: 50%;
+    width: 40%;
+    scale: 0.8;
     background-color: #ff004f;
-    z-index: 0;
-    width: 30%;
-    position: relative;
-    display: block;
+    z-index: 0;    
     transition: 0.5s;
 }
 
@@ -340,12 +343,15 @@ a{
 }
 
 .work-even img{
-    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+    left: 20vw;
+    right: 0vw;
     opacity: 50%;
+    width: 40%;
+    background-color: #ff004f;
     z-index: 0;
-    width: 30%;
-    position: relative;
-    display: block;
+    scale: 0.8;
     transition: 0.5s;
 }
 
@@ -353,9 +359,26 @@ a{
     opacity: 100%;
 }
 
-.layer{
-    width: 505;
-    background: #262626;
+.layer-odd{
+    width: 40%;
+    margin-left: 10%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: start;
+    padding: 0 40px 0 0;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.layer-even{
+    width: 40%;
+    margin-right: 10%;
+    display: block;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -363,9 +386,19 @@ a{
     flex-direction: column;
     justify-content:center;
     text-align: end;
-    padding: 0 40px;
+    padding: 0 0 0 40px;
     font-size: 14px;
     transition: 0.5s;
+}
+.layer-even p{
+    border-radius: 4px;
+    background:#262626;
+    padding: 25px;
+}
+.layer-odd p{
+    background: #262626;
+    border-radius: 4px;
+    padding: 25px;
 }
 
 .work-list-title{
@@ -377,6 +410,7 @@ a{
 .para{
     font-size: 24px;
     font: weight 600px;
+    /* box-shadow: 0 10px 30px -15px #ff004f; */
 }
 
 .open-link-work{  
@@ -392,6 +426,16 @@ a{
 .open-link-work i{
     display: block;
     margin-top: 10px;
+}
+
+.link-odd{
+    display: flex;
+    justify-content: start;
+}
+
+.link-even{
+    display: flex;
+    justify-content: end;
 }
 
 /*-- ---------- contact ---------- --*/
@@ -451,7 +495,7 @@ a{
 .social p{
     font-family: 'Comic Neue', cursive;
     margin-top: 20px;
-    font-size: 22 px;
+    font-size: 22px;
 }
 
 /* .contact-info p i{
