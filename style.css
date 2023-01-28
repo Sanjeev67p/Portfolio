@@ -99,7 +99,7 @@ html{
     color: #ababab;
     text-decoration: none;
     width:max-content;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
 }
 
@@ -361,7 +361,6 @@ a{
 } 
 .para{
     font-size: 18px;
-    /* box-shadow: 0 10px 30px -15px #ff004f; */
 }
 
 .tech-odd{
