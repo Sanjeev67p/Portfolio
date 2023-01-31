@@ -232,7 +232,6 @@ h2{
 }
 #portfolio{
     height: 220vh;
-    width: 100%;
     overflow: hidden;
     padding: 30px 0;
 }
@@ -256,7 +255,7 @@ a{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 40px;
-    margin: 0 10% 0 10%;
+    /* margin: 0 10vw 0 10vw; */
     align-items: center;
 }
 
@@ -282,7 +281,7 @@ a{
     left: 40vw;
     right: 0vw;
     opacity: 50%;
-    width: 40%;
+    width: 40vw;
     scale: 0.8;
     background-color: #ff004f;
     z-index: 0;    
@@ -299,7 +298,7 @@ a{
     left: 20vw;
     right: 0vw;
     opacity: 50%;
-    width: 40%;
+    width: 40vw;
     background-color: #ff004f;
     z-index: 0;
     scale: 0.8;
@@ -311,8 +310,8 @@ a{
 }
 
 .layer-odd{
-    width: 40%;
-    margin-left: 10%;
+    width: 25vw;
+    margin-left: 14vw;
     display: block;
     position: relative;
     z-index: 1;
@@ -329,8 +328,8 @@ a{
 }
 
 .layer-even{
-    width: 40%;
-    margin-right: 10%;
+    width: 25vw;
+    margin-right: 14vw;
     display: block;
     position: relative;
     z-index: 1;
