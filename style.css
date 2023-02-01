@@ -9,9 +9,11 @@ body{
     color: #fff;
     background-color: #080808;
 }
+
 html{
     scroll-behavior:smooth;   
 }
+
 /* ---------header-------- */
 
 #header{
@@ -29,6 +31,7 @@ html{
     align-items: center;
     justify-content: space-between;
 }
+
 .logo{
     
     height: 140px;
@@ -49,15 +52,19 @@ html{
     background-color: #ff004f;
     color:#fff
 }
+
 .vl {
-    margin-left: 6px;
-    margin-top: 15px;
+    position: fixed;
+    margin: 84vh 70vw 0vw 3.3vw;
+
     border-left: 6px solid #ababab;
     height: 500px;
-  }
+}
+
 .icons{
     font-size: 24px;
 }
+
 
 .social-icons{
     position: fixed;
@@ -74,6 +81,7 @@ html{
     display: inline-block;
     transition: 0.2s;
 }
+
 .social-icons a:hover{
     color: #ff004f;
     transform: translateY(-5px);
@@ -106,6 +114,7 @@ html{
 .rightnav ul li:hover{
     transform: scale(1.5) rotateZ(90deg); 
 } 
+
 .opnav::after{
     content: '';
     height: 3px;
@@ -147,6 +156,7 @@ html{
     font-size: clamp(1px, 9vw, 50px);
     margin-top: 10px;
 }
+
 .header-text p{
     text-align: justify;
     margin-top:30px;
@@ -155,6 +165,7 @@ html{
 .header-text h1 span{
     color: #ff004f;
 }
+
 .skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 250px));
@@ -167,9 +178,11 @@ html{
     overflow: hidden;
     list-style: none;
 }
+
 .skills-list li{
     margin-top:10px;
 }
+
 .skills-list li::before {
     content: "▹";
     line-height: 12px;
@@ -183,37 +196,45 @@ html{
     padding-bottom: 30px;
     font-size: 20px;
 }
+
 .fa-github{  
     padding-bottom: 30px;
     font-size: 20px;
 }
+
 .fa-linkedin{  
     padding-bottom: 30px;
     font-size: 20px;
 }
+
 .fa-instagram{  
     padding-bottom: 30px;
     font-size: 20px;
 }
+
 .fa-twitter-square{  
     padding-bottom: 30px;
     font-size: 20px;
 }
+
 .container-port{
     padding-top: 100px;
 
 }
+
 #portfolio{
     height: 220vh;
     overflow: hidden;
     padding: 30px 0;
 }
+
 a{
     text-decoration: none;
     color: #fff;
     margin-top: 20px;
     display: inline-block;
 }
+
 .sub-title{
     color: #fff;
     font-size: 50px;
@@ -224,6 +245,7 @@ a{
 .sub-title span{
     color: #ff004f;
 }
+
 .work-list{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -296,6 +318,7 @@ a{
     font-size: 14px;
     transition: 0.5s;
 }
+
 .pro{
     color: #ff004f;
 }
@@ -314,11 +337,13 @@ a{
     font-size: 14px;
     transition: 0.5s;
 }
+
 .layer-even p{
     border-radius: 4px;
     background:#262626;
     padding: 25px;
 }
+
 .layer-odd p{
     background: #262626;
     border-radius: 4px;
@@ -331,6 +356,7 @@ a{
     padding: 0;
     padding-bottom: 20px;
 } 
+
 .para{
     font-size: 18px;
 }
@@ -340,17 +366,21 @@ a{
     justify-content: start;
     font-size: 16px;
 }
+
 .tech-even{
     display: flex;
     justify-content: end;
     font-size: 16px;
 }
+
 .tech-odd span{
     padding: 20px 5px 0 5px;
 }
+
 .tech-even span{
     padding: 20px 5px 0 5px;
 }
+
 .open-link-work{  
     color: #ff004f; 
     text-decoration: none;
@@ -378,16 +408,19 @@ a{
 }
 
 /*-- ---------- contact ---------- --*/
+
 #contact{
     padding: 15vh 0 5vh 0;
     height: 100vh;
 }
+
 .contact-title{
     width: 100%;
     margin-top: 5vh;
     text-align: center;
     font-size: 50px;
 }
+
 .contact-title span{
     color: #ff004f;
 }
@@ -396,24 +429,26 @@ a{
     text-align: center;
     margin:5vh 10vw 0 10vw;
     padding-top: 5vh;
-    /* background:#262626; */
     border-radius: 50px;
 }
-.contact-info p{
-    
+
+.contact-info p{ 
     padding: 5vh 10vw 0 10vw ;
     font-size: 20px;
 }
+
 .mail-link{
     font-size: 20px;
     text-align: center;
     padding-top: 20px;
 }
+
 .get-touch{
     display: flex;  
     flex-direction: column;
     align-items: center;
 }
+
 .btn2{
     margin: 50px 0 50px 0;
 }
@@ -424,6 +459,7 @@ a{
     position: relative;
     justify-content:center;
 }
+
 .arrow{
     position: absolute;
     scale: 0.5;
@@ -431,6 +467,7 @@ a{
     margin-right: 500px;
     margin-top: 0vh;
 }
+
 .social p{
     font-family: 'Comic Neue', cursive;
     margin-top: 20px;
@@ -443,11 +480,147 @@ a{
     color: #ff004f;
     margin-right: 10px;
 }
+
 .fa-paper-plane:hover{
     color: #fff;
 
 }
 
-@media(width<= 430px) {
+/*-- ---------- mobile-responsiveness----------- --*/
+@media(max-width: 430px) {
+    #header{
+        height: 200vh;
+    }
+
+    .container{
+        padding: 10px 5%;    
+    }
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        
+        height: 100px;
+    }
+    
+    .btn{
+        margin-top: 10px;
+        margin-right: 0 ;
+        width: fit-content;
+        text-align: center;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        border: 1px solid #ff004f;
+        transition: 0.5s ;
+    }
+    .btn:hover{
+        background-color: #ff004f;
+        color:#fff
+    }
+    
+
+    .info{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+    }
+    
+    .main-pic{
+        flex-basis: 10%;
+    }
+    
+    .main-pic img{
+        position:absolute;
+        border-radius: 10%;
+        margin-top: 30px;
+        width: 30vw;
+        top: 90px;
+        right: 5vw;
+        
+    }
+    
+    .header-text{
+        position:relative;
+        flex-basis: 100%;
+        font-size: 20px;
+    }
+    
+    .header-text h1{
+        width: 60vw;
+        text-align: start;
+        font-size: 20pt;
+        margin-top: 10px;
+    }
+    .header-text span{
+        text-align: end;
+    }
+    
+    .header-text p{
+        text-align: justify;
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 15pt;
+    }
+    
+    .header-text h1 span{
+        color: #ff004f;
+    }
+    
+    .skills-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 250px));
+        margin-top: 30px;
+        gap: 10px 10px;
+        background: #262626;
+        width: fit-content;
+        padding: 5px 0px 10px 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        list-style: none;
+    }
+    
+    .skills-list li{
+        margin-top:10px;
+    }
+    
+    .skills-list li::before {
+        content: "▹";
+        line-height: 12px;
+    }
+
+    .social-icons{
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 13vw;
+        width: 100vw;
+        margin: 94vh 0vw 0vh 0vw;
+        background-color: white;
+    }
+
+    .social-icons a{
+        text-align: center;
+        color: #262626;
+        margin: 0;
+    }
+    .social-icons a i{
+        font-size: 30px;
+    }
+
+    .vl{
+        margin-left: 0;
+        margin-top: 0;
+        border-left: 0px solid transparent;
+        height: 0;
+    }
     
 }
