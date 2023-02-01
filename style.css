@@ -176,33 +176,6 @@ html{
 }
 
 
-/* #services{
-    padding: 50px 0px;
-    height: 100vh;
-}
-
-.services-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-h2{
-    font-size: 30px;
-    padding-bottom: 10px;
-}
-.services-list div{
-    background: #262626;
-    padding: 40px;
-    border-radius: 10px;
-    transition: 0.5s;
-}
-
-.services-list div:hover{
-    background: #ff004f;
-    transform: translate(5px, -10px);
-} */
-
 
 /* ---------portfolio-------- */
 
@@ -464,11 +437,6 @@ a{
     font-size: 22px;
 }
 
-/* .contact-info p i{
-    color: #ff004f;
-    margin-right: 15px;
-    font-size: 40px;
-} */
 .fa-paper-plane{
     margin-bottom: 0;
     font-size: 20px;
@@ -479,42 +447,7 @@ a{
     color: #fff;
 
 }
-/* .form-name{
-    display:flex;
-    width: fit-content;
-    gap: 20px;
+
+@media(width<= 430px) {
+    
 }
-.contact-info form{
-    padding: 0 20vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-info form input, form textarea{
-    border-radius: 5px;
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #262626;
-    padding: 15px;
-    margin: 15px 0;
-    color: #fff;
-    font-size: 18px;
-
-} */
-
-/* .copyright{
-    background: #262626;
-    width:100vw;
-    text-align: center;
-    font-size: 15px;
-    padding: 10px 0;
-    font-weight: 400;
-    margin-bottom: 0;
-} */
