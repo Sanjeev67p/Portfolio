@@ -711,7 +711,7 @@ a{
     }
     
     .layer-odd{
-        height: 60vh;
+        height: 70vh;
         width: 80vw;
         margin-left: 0vw;
         display: block;
@@ -739,7 +739,7 @@ a{
     }
     
     .layer-even{
-        height: 60vh;
+        height: 70vh;
         width: 80vw;
         margin-left: 0vw;
         margin-right: 0vw;
