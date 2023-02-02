@@ -817,5 +817,11 @@ a{
         color: #ff004f;
         margin-right: 10px;
     }
-    
+    .sub-title{
+        font-size: 32px;
+    }
+
+    .work-list-title{
+        font-size: 24px;
+    }
 }
