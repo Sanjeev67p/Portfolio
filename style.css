@@ -156,6 +156,9 @@ html{
     margin-top: 10px;
 }
 
+#about-me{
+    display: none;
+}
 .header-text p{
     text-align: justify;
     margin-top:30px;
@@ -572,6 +575,14 @@ a{
         padding-bottom: 5vh;
     }
     
+    #about-me{
+        display:block;
+        font: 700;
+        font-size: 32px;
+        padding-bottom: 3vh;
+        text-align: center;
+        color: #ff004f;
+    }
     .header-text p{
         text-align: justify;
         margin-left: 10px;
@@ -582,7 +593,8 @@ a{
     }
     #web-deve{
         text-align: center;
-        font-size: 6vw;
+        height: 5vh;
+        font-size: 32px;
         margin-left: 0;
         padding-left: 0;
     }
