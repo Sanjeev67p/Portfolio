@@ -589,7 +589,6 @@ a{
     }
     #inform{
         text-align: justify;
-        height: 50vh;
         margin-left: 10px;
         margin-right: 10px;
         margin-top:5vh;
@@ -613,7 +612,9 @@ a{
     }
     
     #informa{
-        padding-top: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 3vh;
         margin-top: 0;
         height: 5vh;
     }
