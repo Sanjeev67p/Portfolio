@@ -670,14 +670,14 @@ a{
         height: 0;
     }
     #portfolio{
-        height: 250vh;
+        height: 300vh;
     }
     .sub-title{
         height: 20vh;
         margin-bottom: 0;
     }
     .work-odd{
-        height: 73vh;
+        height: 93vh;
         overflow: hidden;
         display: flex;
         justify-content:start;
@@ -687,7 +687,7 @@ a{
     }
 
     .work-even{
-        height: 73vh;
+        height: 93vh;
         overflow: hidden;
         display: flex;
         justify-content: start;
@@ -749,7 +749,7 @@ a{
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content:flex-start;
         text-align: start;
         font-size: 14px;
         transition: 0.5s;
