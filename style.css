@@ -18,7 +18,6 @@ html{
 
 #header{
     width: 100%;
-    height: 100vh;
     overflow: hidden;
 }
 
@@ -489,7 +488,7 @@ a{
 /*-- ---------- mobile-responsiveness----------- --*/
 @media(max-width: 430px) {
     #header{
-        height: 200vh;
+        height: 100vh;
     }
 
     .container{
@@ -596,14 +595,14 @@ a{
     }
 
     .social-icons{
-        position: fixed;
+        position: absolute;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 13vw;
         width: 100vw;
-        margin: 94vh 0vw 0vh 0vw;
+        margin: 494vh 0vw 0vh 0vw;
         background-color: white;
     }
 
@@ -621,6 +620,108 @@ a{
         margin-top: 0;
         border-left: 0px solid transparent;
         height: 0;
+    }
+    #portfolio{
+        height: 300vh;
+    }
+    .sub-title{
+        height: 20vh;
+    }
+    .work-odd{
+        margin-bottom: 10px;
+        height: 94vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row; 
+        align-items: center;   
+    }
+
+    .work-even{
+        margin-bottom: 10px;
+        height: 94vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row; 
+        align-items: center;   
+    }
+
+    .work-odd{
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 10vw 0 10vw; */
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .work-odd img{
+        position:relative;
+        border-radius: 10px;
+        left: 0vw;
+        right: 0vw;
+        opacity: 100%;
+        width: 100vw;
+        scale: 0.8;
+        background-color: #ff004f;
+        z-index: 0;    
+        transition: 0.5s;
+    }
+    
+    .layer-odd{
+        height: 40vh;
+        width: 80vw;
+        margin-left: 0vw;
+        display: block;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        text-align: start;
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    .work-even{
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 10vw 0 10vw; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .work-even img{
+        position:relative;
+        border-radius: 10px;
+        left: 0vw;
+        right: 0vw;
+        opacity: 100%;
+        width: 100vw;
+        scale: 0.8;
+        background-color: #ff004f;
+        z-index: 0;    
+        transition: 0.5s;
+    }
+    
+    .layer-even{
+        height: 40vh;
+        width: 80vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        display: block;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        text-align: start;
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    #contact{
+        height: 100vh;
     }
     
 }
