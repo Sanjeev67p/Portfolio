@@ -557,6 +557,7 @@ a{
         text-align: center;
         flex-basis: 100%;
         margin-top: 2vh;
+        height: 145vh;
         /* font-size: 20px; */
     }
     
@@ -565,7 +566,7 @@ a{
         font-size: 10vw;
         height:37vh;
         margin-top: 0;
-        padding-top: 3vh;
+        padding-top: 0vh;
         padding-bottom: 5vh;
     }
     
@@ -573,7 +574,7 @@ a{
         text-align: justify;
         margin-left: 10px;
         margin-right: 10px;
-        margin-top:20px;
+        margin-top:5vh;
         margin-bottom: 20px;
         font-size: 15pt;
     }
@@ -592,21 +593,31 @@ a{
         color: #ff004f;
     }
     
+    #inform{
+        height: 40vh;
+    }
+    #inform{
+        height: 40vh;
+    }
+    
     .skills-list {
         display: grid;
         grid-template-columns: repeat(2, minmax(140px, 250px));
-        margin-top: 30px;
-        gap: 10px 10px;
+        margin-top: 5vh;
+        gap: 0px 10px;
         background: #262626;
         width: fit-content;
-        padding: 5px 0px 10px 10px;
+        padding: 0;
         border-radius: 10px;
         overflow: hidden;
         list-style: none;
     }
     
     .skills-list li{
-        margin-top:10px;
+        text-align: start;
+        margin-left: 1vh;
+        margin-top:2vh;
+        margin-bottom: 2vh;
     }
     
     .skills-list li::before {
