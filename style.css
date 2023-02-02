@@ -493,7 +493,7 @@ a{
 }
 
 /*-- ---------- mobile-responsiveness----------- --*/
-@media(max-width: 430px) {
+@media(max-width: 460px) {
     #header{
         height: 200vh;
         margin-top: 0vh;
