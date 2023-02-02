@@ -825,4 +825,26 @@ a{
     .work-list-title{
         font-size: 24px;
     }
+
+    #foot{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 13vw;
+        width: 100vw;
+    }
+
+    #foot a{
+        text-decoration: none;
+        margin-right: 15px;
+        color: #ababab;
+        font-size: 25px;
+        display: inline-block;
+        transition: 0.2s;
+    }
+    
+    #foot a i{
+        font-size: 4vh;
+    }
 }
