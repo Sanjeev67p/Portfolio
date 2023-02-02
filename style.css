@@ -489,24 +489,25 @@ a{
 @media(max-width: 430px) {
     #header{
         height: 200vh;
+        margin-top: 5vh;
     }
 
     .container{
-        padding: 10px 5%;    
+        padding: 0vh 5vw;    
     }
     .nav-bar{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
+        height: 15vh;
     }
     
     .logo{
-        
         height: 100px;
     }
     
     .btn{
-        margin-top: 0px;
+        margin-top: 3vh;
         margin-right: 0 ;
         margin-bottom: 5px;
         width: fit-content;
@@ -529,38 +530,43 @@ a{
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 5%;
+        margin-top: 0vh;
     }
-    
     .main-pic{
-        flex-basis: 10%;
+        flex-basis: 100%;
+        margin-top: 3vh;
+        height: 30vh;
     }
-    
     .main-pic img{
         background: url(main-mob.png) no-repeat;
-        background-size: 50vw;
+        background-size: 30vh;
+        background-position: center;
         border-radius: 50%;
         display: block;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        margin-top: 30px;
-        width: 50vw;
-        height: 50vw;
+        margin-top: 0;
+        width: 60vw;
+        height: 30vh;
         top: 90px;
         right: 5vw;
-        padding-left:50vw;
+        padding-left:60vw;
     }
     
     .header-text{
         text-align: center;
         flex-basis: 100%;
+        margin-top: 2vh;
         /* font-size: 20px; */
     }
     
     .header-text h1{
         width: 100%;
         font-size: 10vw;
-        margin-top: 10px;
+        height:37vh;
+        margin-top: 0;
+        padding-top: 3vh;
+        padding-bottom: 5vh;
     }
     
     .header-text p{
@@ -616,17 +622,16 @@ a{
         align-items: center;
         gap: 13vw;
         width: 100vw;
-        margin: 494vh 0vw 0vh 0vw;
-        background-color: white;
+        margin: 85vh 0vw 0vh 0vw;
     }
 
     .social-icons a{
         text-align: center;
-        color: #262626;
+        color:white;
         margin: 0;
     }
     .social-icons a i{
-        font-size: 30px;
+        font-size: 4vh;
     }
 
     .vl{
