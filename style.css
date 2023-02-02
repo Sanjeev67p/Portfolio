@@ -489,7 +489,8 @@ a{
 @media(max-width: 430px) {
     #header{
         height: 200vh;
-        margin-top: 5vh;
+        margin-top: 0vh;
+        padding-top: 5vh;
     }
 
     .container{
@@ -532,6 +533,7 @@ a{
         flex-wrap: wrap;
         margin-top: 0vh;
     }
+
     .main-pic{
         flex-basis: 100%;
         margin-top: 3vh;
@@ -652,38 +654,32 @@ a{
         height: 0;
     }
     #portfolio{
-        height: 300vh;
+        height: 250vh;
     }
     .sub-title{
         height: 20vh;
+        margin-bottom: 0;
     }
     .work-odd{
-        margin-bottom: 10px;
-        height: 94vh;
+        height: 73vh;
         overflow: hidden;
         display: flex;
-        justify-content: space-between;
-        flex-direction: row; 
+        justify-content:start;
+        flex-direction: column; 
         align-items: center;   
+        margin-bottom: 0;
     }
 
     .work-even{
-        margin-bottom: 10px;
-        height: 94vh;
+        height: 73vh;
         overflow: hidden;
         display: flex;
-        justify-content: space-between;
-        flex-direction: row; 
-        align-items: center;   
+        justify-content: start;
+        flex-direction: column; 
+        align-items: center; 
+        margin-bottom: 0;  
     }
 
-    .work-odd{
-        display: flex;
-        flex-direction: column;
-        /* margin: 0 10vw 0 10vw; */
-        align-items: center;
-        justify-content: flex-start;
-    }
 
     .work-odd img{
         position:relative;
@@ -699,7 +695,7 @@ a{
     }
     
     .layer-odd{
-        height: 40vh;
+        height: 60vh;
         width: 80vw;
         margin-left: 0vw;
         display: block;
@@ -708,19 +704,11 @@ a{
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content:flex-start;
         text-align: start;
         font-size: 14px;
         transition: 0.5s;
     }
-    .work-even{
-        display: flex;
-        flex-direction: column;
-        /* margin: 0 10vw 0 10vw; */
-        align-items: center;
-        justify-content: center;
-    }
-
     .work-even img{
         position:relative;
         border-radius: 10px;
@@ -735,7 +723,7 @@ a{
     }
     
     .layer-even{
-        height: 40vh;
+        height: 60vh;
         width: 80vw;
         margin-left: 0vw;
         margin-right: 0vw;
@@ -750,8 +738,68 @@ a{
         font-size: 14px;
         transition: 0.5s;
     }
+
     #contact{
+        padding: 0;
         height: 100vh;
+    }
+    .contact-info{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-title{
+        width: 100%;
+        margin-top: 0vh;
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .contact-info{
+        text-align: center;
+        margin:0vh 10vw 0 10vw;
+        padding-top: 5vh;
+        border-radius: 50px;
+    }
+    
+    .contact-info p{ 
+        padding: 5vh 10vw 0 10vw ;
+        font-size: 20px;
+    }
+    
+    .mail-link{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .btn2{
+        margin: 50px 0 50px 0;
+    }
+        
+    .arrow{
+        position: absolute;
+        scale: 0;
+        /* rotate: -10deg; */
+        margin-right: 500px;
+        margin-top: 0vh;
+    }
+    .social{
+        height: 0;
+    }
+    .social p{
+        font-family: 'Comic Neue', cursive;
+        margin-top: 20px;
+        font-size: 0;
+    }
+    
+    .fa-paper-plane{
+        margin-bottom: 0;
+        font-size: 20px;
+        color: #ff004f;
+        margin-right: 10px;
     }
     
 }
