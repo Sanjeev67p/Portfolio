@@ -561,14 +561,14 @@ a{
     .header-text{
         text-align: center;
         flex-basis: 100%;
-        margin-top: 2vh;
+        margin-top: 0vh;
         height: 145vh;
         /* font-size: 20px; */
     }
     
     .header-text h1{
         width: 100%;
-        font-size: 10vw;
+        
         height:37vh;
         margin-top: 0;
         padding-top: 0vh;
@@ -577,18 +577,23 @@ a{
     
     #about-me{
         display:block;
-        font: 700;
+        font-weight: 700;
         font-size: 32px;
         padding-bottom: 3vh;
         text-align: center;
+        color: #fff;
+    }
+
+    #about-me span{
         color: #ff004f;
     }
-    .header-text p{
+    #inform{
         text-align: justify;
+        height: 50vh;
         margin-left: 10px;
         margin-right: 10px;
         margin-top:5vh;
-        margin-bottom: 20px;
+        margin-bottom: 0;
         font-size: 15pt;
     }
     #web-deve{
@@ -597,6 +602,7 @@ a{
         font-size: 32px;
         margin-left: 0;
         padding-left: 0;
+        padding-top: 5vh;
     }
     
     .header-text h1 span::before{
@@ -607,11 +613,10 @@ a{
         color: #ff004f;
     }
     
-    #inform{
-        height: 40vh;
-    }
-    #inform{
-        height: 40vh;
+    #informa{
+        padding-top: 0;
+        margin-top: 0;
+        height: 5vh;
     }
     
     .skills-list {
