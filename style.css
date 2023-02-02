@@ -488,12 +488,16 @@ a{
 
 }
 
+#foot{
+    display: none;
+}
+
 /*-- ---------- mobile-responsiveness----------- --*/
 @media(max-width: 430px) {
     #header{
         height: 200vh;
         margin-top: 0vh;
-        padding-top: 5vh;
+        padding-top: 3vh;
     }
 
     .container{
