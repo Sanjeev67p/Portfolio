@@ -188,6 +188,7 @@ html{
 .skills-list li::before {
     content: "▹";
     line-height: 12px;
+    padding-right: 5px;
 }
 
 
